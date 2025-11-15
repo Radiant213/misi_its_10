@@ -42,7 +42,7 @@ namespace WebApplication1.Controllers
             return Ok(list);
         }
 
-        // Endpoint "NamaKategori" — contoh yang BENAR/AMAN
+        // Endpoint "NamaKategori" ini tuh contoh yang BENAR/AMAN
         // - Menggunakan parameter SQL (@nama) sehingga input user tidak langsung disisipkan ke query.
         // - Parameter diberikan tipe dan ukuran eksplisit untuk menghindari tebakan tipe yang buruk.
         // Keuntungan: mencegah SQL Injection, rencana eksekusi lebih konsisten.
@@ -113,4 +113,5 @@ namespace WebApplication1.Controllers
         }
     }
 }
+
 
